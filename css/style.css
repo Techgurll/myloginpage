@@ -14,9 +14,11 @@ body {
     top: 50%;
     left: 50%;
     position: absolute;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     box-sizing: border-box;
-}
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    }
 
 .avatar {
     width: 100px;
@@ -56,8 +58,8 @@ h1 {
 
 .loginbox input[type="text"]:hover {
     cursor: pointer;
-    background: lightblue;
-    color: #000;
+    background: white;
+    color: black;
 }
 
 .loginbox input[type="password"] {
@@ -72,7 +74,7 @@ h1 {
 
 .loginbox input[type="password"]:hover {
     cursor: pointer;
-    background: lightblue;
+    background: white;
     color: #000;
 }
 
