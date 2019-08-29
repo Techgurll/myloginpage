@@ -4,6 +4,7 @@ body {
     background: url(https://images.unsplash.com/photo-1566917336284-f4e134c5012e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1576&q=80);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     font-family: sans-serif;
 }
 
@@ -26,6 +27,10 @@ body {
     position: absolute;
     top: -70px;
     padding-left: 110px;
+}
+
+form{
+    padding: 50px;
 }
 
 h1 {
@@ -92,15 +97,50 @@ h1 {
 .loginbox input[type="submit"] {
     border: none;
     outline: none;
-    height: 20px;
-    width: 70px;
-    background: white;
+    height: 30px;
+    width: 90px;
+    background: blue;
+    color: white;
     font-size: 18px;
     border-radius: 5px;
+    margin-left: 60px;
 }
 
 .loginbox input[type="submit"]:hover {
     cursor: pointer;
     background: lightblue;
-    color: #000;
+    color: black;
+}
+
+
+/* Media Queries */
+
+/* Smartphone */
+
+@media(max-width:500px){
+    body{
+        background: url(https://images.unsplash.com/photo-1566917336284-f4e134c5012e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1576&q=80);
+    background-size: cover;
+    background-position: center;
+    }
+}
+
+/* Tablet */
+
+@media(min-width:501px) and (max-width:768px){
+    body{
+        background: url(https://images.unsplash.com/photo-1566917336284-f4e134c5012e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1576&q=80);
+    background-size: cover;
+    background-position: center;
+    }
+}
+
+/* Normal */
+
+@media(min-width: 769px) and (max-width:1200px){
+    body{
+        background: url(https://images.unsplash.com/photo-1566917336284-f4e134c5012e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1576&q=80);
+    background-size: cover;
+    background-position: center;
+    }
 }
