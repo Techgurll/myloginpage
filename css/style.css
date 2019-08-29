@@ -1,10 +1,9 @@
-*{
-    box-sizing: border-box;
-}
+
 
 body {
     margin: 0;
     padding: 0;
+    
     background: url(https://images.unsplash.com/photo-1566917336284-f4e134c5012e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1576&q=80);
     background-size: cover;
     background-position: center;
@@ -51,7 +50,7 @@ h1 {
 }
 
 .loginbox input {
-    width: 100%;
+    width: 80%;
     margin-bottom: 20px;
 }
 
@@ -116,9 +115,10 @@ h1 {
     color: black;
 }
 
+
 .foo{
-    padding-left: 40px;
-}
+    padding-left: 50px;
+} 
 
 /* Media Queries */
 
