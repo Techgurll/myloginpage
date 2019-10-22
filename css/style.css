@@ -11,7 +11,7 @@ body {
     font-family: sans-serif;
 }
 
-.loginbox {
+ .loginbox {
     width: 320px;
     height: 420px;
     color: #fff;
@@ -22,17 +22,15 @@ body {
     
     background-color: rgba(0, 0, 0, 0.3);
     
+    } 
+
+    .avatar {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: -70px;
+        padding-left: 110px;
     }
-
-    
-
-.avatar {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: -70px;
-    padding-left: 110px;
-}
 
 form{
     padding: 20px;
@@ -61,22 +59,22 @@ h1 {
     outline: none;
     height: 40px;
     background: white;
-    color: #fff;
+    
     font-size: 15px;
     border-radius: 10px;
 }
 
 .loginbox input[type="text"]:hover {
     cursor: pointer;
-    background: white;
-    color: black;
+    background: darkgrey;
+    color: white;
 }
 
 .loginbox input[type="password"] {
     border: none;
     outline: none;
     height: 40px;
-    background: white;
+    
     color: #fff;
     font-size: 15px;
     border-radius: 10px;
@@ -84,8 +82,8 @@ h1 {
 
 .loginbox input[type="password"]:hover {
     cursor: pointer;
-    background: white;
-    color: #000;
+    background: darkgrey;
+    color: white;
 }
 
 .loginbox a {
@@ -128,12 +126,19 @@ h1 {
 
 /* Smartphone */
 
+
 @media(max-width:500px){
     body{
         background: url(https://images.unsplash.com/photo-1566917336284-f4e134c5012e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1576&q=80);
     background-size: cover;
     background-position: center;
+    
     }
+
+    .loginbox{
+        top: 55%;
+    }
+    
 }
 
 /* Tablet */
@@ -143,6 +148,11 @@ h1 {
         background: url(https://images.unsplash.com/photo-1566917336284-f4e134c5012e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1576&q=80);
     background-size: cover;
     background-position: center;
+    }
+
+    .loginbox{
+        top: 60%;
+        
     }
 }
 
